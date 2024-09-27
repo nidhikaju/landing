@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+#about {
+    display: flex;
+    justify-content: space-around;
+    margin: 23px auto;
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHeTRSy00fNb6Tf26wSgW6WvYpvx9boaLwuw&s');
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-content {
+    margin: 0 auto;
+    padding-top: 50px;
+    color: white;
+    height: 70%;
+    width: 100%;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(16, 16, 241);
+    width: 100%;
+    height: 30%;
+    color: #fff;
+}
+
+.feature {
+    text-align: center;
+    width: 30%;
+    padding-top: 50px;
+}
+
+.feature h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 1.1em;
+    text-align: start;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px auto;
+    background-color: #f03db1;
+    color: #fff;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.box {
+    align-items: center;
+    background-color: rgb(239, 142, 157);
+}
+
+.box1 {
+    display: flex;
+    min-height: 350px;
+    padding: 10px;
+}
+
+.box1 h1 {
+    padding: 10px;
+}
+
+.box1 p {
+    margin-bottom: 40px;
+}
